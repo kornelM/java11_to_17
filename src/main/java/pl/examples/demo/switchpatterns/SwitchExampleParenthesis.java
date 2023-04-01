@@ -11,7 +11,9 @@ public class SwitchExampleParenthesis {
             case String s -> {
                 if (s.length() > 0) {
                     if (s.contains("alior") && s.contains("bank")) {
-                        yield s.length();
+                        yield 0;
+                    } else if (s.contains("ing") && s.contains("bank")) {
+                        yield 1;
                     } else {
                         yield -1;
                     }
@@ -25,7 +27,8 @@ public class SwitchExampleParenthesis {
 
     public int getIntUsingSwitch(Object o) {
         return switch (o) {
-            case String s && s.length() > 0 && (s.contains("alior") && s.contains("bank")) -> s.length();
+            case String s && s.length() > 0 && (s.contains("alior") && s.contains("bank")) -> 0;
+            case String s && s.length() > 0 && (s.contains("ing") && s.contains("bank")) -> 1;
             case null, default -> -1;
         };
     }

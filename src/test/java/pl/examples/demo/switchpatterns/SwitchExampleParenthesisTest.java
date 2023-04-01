@@ -42,9 +42,9 @@ class SwitchExampleParenthesisTest {
 
     private static Stream<Arguments> switchTestSupplier() {
         return Stream.of(
-                Arguments.of("alior bank", 10),
+                Arguments.of("alior bank", 0),
+                Arguments.of("ing bank", 1),
                 Arguments.of("Alior Lody", -1),
-                Arguments.of("ING Bank", -1),
                 Arguments.of(Boolean.FALSE, -1),
                 Arguments.of(null, -1)
         );
