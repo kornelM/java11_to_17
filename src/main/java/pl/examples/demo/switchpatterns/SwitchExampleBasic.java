@@ -4,20 +4,6 @@ import java.time.DayOfWeek;
 
 public class SwitchExampleBasic {
 
-    public String newDayOfWeekByNumber(int dayOfWeek) {
-        return switch (dayOfWeek) {
-            case 0 -> DayOfWeek.MONDAY.name();
-            case 1 -> DayOfWeek.TUESDAY.name();
-            case 2 -> DayOfWeek.WEDNESDAY.name();
-            case 3 -> DayOfWeek.THURSDAY.name();
-            case 4 -> DayOfWeek.FRIDAY.name();
-            case 5 -> DayOfWeek.SATURDAY.name();
-            case 6 -> DayOfWeek.SUNDAY.name();
-            default ->
-                    throw new IllegalArgumentException("Unsupported day of the week number! Supported are: 1, 2, 3, 4, 5, 6, 7.");
-        };
-    }
-
     public String oldDayOfWeekByNumber(int dayOfWeek) {
         String valueToReturn;
 
@@ -49,4 +35,17 @@ public class SwitchExampleBasic {
         return valueToReturn;
     }
 
+    public String newDayOfWeekByNumber(int dayOfWeek) {
+        return switch (dayOfWeek) {
+            case 0 -> DayOfWeek.MONDAY.name();
+            case 1 -> DayOfWeek.TUESDAY.name();
+            case 2 -> DayOfWeek.WEDNESDAY.name();
+            case 3 -> DayOfWeek.THURSDAY.name();
+            case 4 -> DayOfWeek.FRIDAY.name();
+            case 5 -> DayOfWeek.SATURDAY.name();
+            case 6 -> DayOfWeek.SUNDAY.name();
+            default ->
+                    throw new IllegalArgumentException("Unsupported day of the week number! Supported are: 1, 2, 3, 4, 5, 6, 7.");
+        };
+    }
 }
