@@ -1,0 +1,1123 @@
+/opt/java/java17/jdk-17.0.2/bin/java --enable-preview -javaagent:/opt/intellij/idea-IC-222.4167.29/lib/idea_rt.jar=43639:/opt/intellij/idea-IC-222.4167.29/bin -Dfile.encoding=UTF-8 -classpath /home/kornel/IdeaProjects/java17-examples/target/classes:/home/kornel/.m2/repository/org/openjdk/jmh/jmh-core/1.35/jmh-core-1.35.jar:/home/kornel/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/kornel/.m2/repository/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar:/home/kornel/.m2/repository/org/openjdk/jmh/jmh-generator-annprocess/1.35/jmh-generator-annprocess-1.35.jar pl.examples.demo.randomgenerators.BenchmarkExample
+Available random generators are: L32X64MixRandom, L128X128MixRandom, L64X128MixRandom, SecureRandom, L128X1024MixRandom, L64X128StarStarRandom, Xoshiro256PlusPlus, L64X256MixRandom, Random, Xoroshiro128PlusPlus, L128X256MixRandom, SplittableRandom, L64X1024MixRandom and default one is: L32X64MixRandom
+_______________________
+# JMH version: 1.35
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8-86
+# VM invoker: /opt/java/java17/jdk-17.0.2/bin/java
+# VM options: --enable-preview -javaagent:/opt/intellij/idea-IC-222.4167.29/lib/idea_rt.jar=43639:/opt/intellij/idea-IC-222.4167.29/bin -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: pl.examples.demo.randomgenerators.BenchmarkExample.testL128X1024MixRandom
+
+# Run progress: 0.00% complete, ETA 01:48:20
+# Fork: 1 of 5
+# Warmup Iteration   1: 125.579 ns/op
+# Warmup Iteration   2: 120.668 ns/op
+# Warmup Iteration   3: 120.414 ns/op
+# Warmup Iteration   4: 120.663 ns/op
+# Warmup Iteration   5: 120.822 ns/op
+Iteration   1: 120.795 ns/op
+Iteration   2: 120.897 ns/op
+Iteration   3: 120.676 ns/op
+Iteration   4: 120.298 ns/op
+Iteration   5: 120.755 ns/op
+
+# Run progress: 1.54% complete, ETA 01:47:51
+# Fork: 2 of 5
+# Warmup Iteration   1: 120.941 ns/op
+# Warmup Iteration   2: 120.644 ns/op
+# Warmup Iteration   3: 121.996 ns/op
+# Warmup Iteration   4: 122.021 ns/op
+# Warmup Iteration   5: 122.281 ns/op
+Iteration   1: 122.092 ns/op
+Iteration   2: 152.998 ns/op
+Iteration   3: 130.063 ns/op
+Iteration   4: 122.547 ns/op
+Iteration   5: 121.823 ns/op
+
+# Run progress: 3.08% complete, ETA 01:45:58
+# Fork: 3 of 5
+# Warmup Iteration   1: 123.252 ns/op
+# Warmup Iteration   2: 119.446 ns/op
+# Warmup Iteration   3: 123.635 ns/op
+# Warmup Iteration   4: 124.131 ns/op
+# Warmup Iteration   5: 123.950 ns/op
+Iteration   1: 124.003 ns/op
+Iteration   2: 123.880 ns/op
+Iteration   3: 124.193 ns/op
+Iteration   4: 124.251 ns/op
+Iteration   5: 123.924 ns/op
+
+# Run progress: 4.62% complete, ETA 01:44:13
+# Fork: 4 of 5
+# Warmup Iteration   1: 119.034 ns/op
+# Warmup Iteration   2: 118.786 ns/op
+# Warmup Iteration   3: 121.721 ns/op
+# Warmup Iteration   4: 121.977 ns/op
+# Warmup Iteration   5: 121.145 ns/op
+Iteration   1: 121.315 ns/op
+Iteration   2: 121.748 ns/op
+Iteration   3: 121.983 ns/op
+Iteration   4: 121.610 ns/op
+Iteration   5: 121.636 ns/op
+
+# Run progress: 6.15% complete, ETA 01:42:30
+# Fork: 5 of 5
+# Warmup Iteration   1: 116.159 ns/op
+# Warmup Iteration   2: 119.218 ns/op
+# Warmup Iteration   3: 119.804 ns/op
+# Warmup Iteration   4: 119.843 ns/op
+# Warmup Iteration   5: 120.079 ns/op
+Iteration   1: 120.485 ns/op
+Iteration   2: 120.285 ns/op
+Iteration   3: 122.286 ns/op
+Iteration   4: 121.112 ns/op
+Iteration   5: 120.334 ns/op
+
+
+Result "pl.examples.demo.randomgenerators.BenchmarkExample.testL128X1024MixRandom":
+  123.440 ±(99.9%) 4.869 ns/op [Average]
+  (min, avg, max) = (120.285, 123.440, 152.998), stdev = 6.500
+  CI (99.9%): [118.570, 128.309] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8-86
+# VM invoker: /opt/java/java17/jdk-17.0.2/bin/java
+# VM options: --enable-preview -javaagent:/opt/intellij/idea-IC-222.4167.29/lib/idea_rt.jar=43639:/opt/intellij/idea-IC-222.4167.29/bin -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: pl.examples.demo.randomgenerators.BenchmarkExample.testL128X128MixRandom
+
+# Run progress: 7.69% complete, ETA 01:40:48
+# Fork: 1 of 5
+# Warmup Iteration   1: 66.754 ns/op
+# Warmup Iteration   2: 74.668 ns/op
+# Warmup Iteration   3: 72.142 ns/op
+# Warmup Iteration   4: 72.305 ns/op
+# Warmup Iteration   5: 72.235 ns/op
+Iteration   1: 72.466 ns/op
+Iteration   2: 72.290 ns/op
+Iteration   3: 73.783 ns/op
+Iteration   4: 71.966 ns/op
+Iteration   5: 71.958 ns/op
+
+# Run progress: 9.23% complete, ETA 01:39:07
+# Fork: 2 of 5
+# Warmup Iteration   1: 68.739 ns/op
+# Warmup Iteration   2: 74.473 ns/op
+# Warmup Iteration   3: 73.745 ns/op
+# Warmup Iteration   4: 73.635 ns/op
+# Warmup Iteration   5: 73.587 ns/op
+Iteration   1: 73.450 ns/op
+Iteration   2: 73.423 ns/op
+Iteration   3: 73.478 ns/op
+Iteration   4: 73.321 ns/op
+Iteration   5: 73.581 ns/op
+
+# Run progress: 10.77% complete, ETA 01:37:26
+# Fork: 3 of 5
+# Warmup Iteration   1: 68.321 ns/op
+# Warmup Iteration   2: 75.120 ns/op
+# Warmup Iteration   3: 73.567 ns/op
+# Warmup Iteration   4: 73.322 ns/op
+# Warmup Iteration   5: 73.713 ns/op
+Iteration   1: 73.577 ns/op
+Iteration   2: 73.586 ns/op
+Iteration   3: 73.430 ns/op
+Iteration   4: 73.969 ns/op
+Iteration   5: 73.173 ns/op
+
+# Run progress: 12.31% complete, ETA 01:35:45
+# Fork: 4 of 5
+# Warmup Iteration   1: 66.664 ns/op
+# Warmup Iteration   2: 74.393 ns/op
+# Warmup Iteration   3: 72.229 ns/op
+# Warmup Iteration   4: 72.179 ns/op
+# Warmup Iteration   5: 72.199 ns/op
+Iteration   1: 72.179 ns/op
+Iteration   2: 72.521 ns/op
+Iteration   3: 72.186 ns/op
+Iteration   4: 72.241 ns/op
+Iteration   5: 72.052 ns/op
+
+# Run progress: 13.85% complete, ETA 01:34:03
+# Fork: 5 of 5
+# Warmup Iteration   1: 68.062 ns/op
+# Warmup Iteration   2: 74.187 ns/op
+# Warmup Iteration   3: 73.021 ns/op
+# Warmup Iteration   4: 72.680 ns/op
+# Warmup Iteration   5: 72.744 ns/op
+Iteration   1: 72.920 ns/op
+Iteration   2: 75.974 ns/op
+Iteration   3: 78.885 ns/op
+Iteration   4: 75.840 ns/op
+Iteration   5: 80.533 ns/op
+
+
+Result "pl.examples.demo.randomgenerators.BenchmarkExample.testL128X128MixRandom":
+  73.711 ±(99.9%) 1.568 ns/op [Average]
+  (min, avg, max) = (71.958, 73.711, 80.533), stdev = 2.093
+  CI (99.9%): [72.143, 75.279] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8-86
+# VM invoker: /opt/java/java17/jdk-17.0.2/bin/java
+# VM options: --enable-preview -javaagent:/opt/intellij/idea-IC-222.4167.29/lib/idea_rt.jar=43639:/opt/intellij/idea-IC-222.4167.29/bin -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: pl.examples.demo.randomgenerators.BenchmarkExample.testL128X256MixRandom
+
+# Run progress: 15.38% complete, ETA 01:32:22
+# Fork: 1 of 5
+# Warmup Iteration   1: 78.743 ns/op
+# Warmup Iteration   2: 80.587 ns/op
+# Warmup Iteration   3: 79.480 ns/op
+# Warmup Iteration   4: 79.357 ns/op
+# Warmup Iteration   5: 79.598 ns/op
+Iteration   1: 79.546 ns/op
+Iteration   2: 79.284 ns/op
+Iteration   3: 79.398 ns/op
+Iteration   4: 80.118 ns/op
+Iteration   5: 79.536 ns/op
+
+# Run progress: 16.92% complete, ETA 01:30:42
+# Fork: 2 of 5
+# Warmup Iteration   1: 75.949 ns/op
+# Warmup Iteration   2: 80.699 ns/op
+# Warmup Iteration   3: 79.530 ns/op
+# Warmup Iteration   4: 79.878 ns/op
+# Warmup Iteration   5: 79.866 ns/op
+Iteration   1: 79.449 ns/op
+Iteration   2: 79.811 ns/op
+Iteration   3: 80.109 ns/op
+Iteration   4: 79.667 ns/op
+Iteration   5: 79.532 ns/op
+
+# Run progress: 18.46% complete, ETA 01:29:01
+# Fork: 3 of 5
+# Warmup Iteration   1: 75.882 ns/op
+# Warmup Iteration   2: 80.473 ns/op
+# Warmup Iteration   3: 79.559 ns/op
+# Warmup Iteration   4: 79.663 ns/op
+# Warmup Iteration   5: 79.420 ns/op
+Iteration   1: 79.309 ns/op
+Iteration   2: 79.362 ns/op
+Iteration   3: 79.278 ns/op
+Iteration   4: 80.014 ns/op
+Iteration   5: 79.352 ns/op
+
+# Run progress: 20.00% complete, ETA 01:27:19
+# Fork: 4 of 5
+# Warmup Iteration   1: 75.592 ns/op
+# Warmup Iteration   2: 80.637 ns/op
+# Warmup Iteration   3: 79.659 ns/op
+# Warmup Iteration   4: 79.552 ns/op
+# Warmup Iteration   5: 79.752 ns/op
+Iteration   1: 79.771 ns/op
+Iteration   2: 79.570 ns/op
+Iteration   3: 80.060 ns/op
+Iteration   4: 79.705 ns/op
+Iteration   5: 79.643 ns/op
+
+# Run progress: 21.54% complete, ETA 01:25:39
+# Fork: 5 of 5
+# Warmup Iteration   1: 76.442 ns/op
+# Warmup Iteration   2: 81.017 ns/op
+# Warmup Iteration   3: 79.641 ns/op
+# Warmup Iteration   4: 80.829 ns/op
+# Warmup Iteration   5: 79.840 ns/op
+Iteration   1: 79.773 ns/op
+Iteration   2: 80.031 ns/op
+Iteration   3: 79.798 ns/op
+Iteration   4: 79.670 ns/op
+Iteration   5: 81.513 ns/op
+
+
+Result "pl.examples.demo.randomgenerators.BenchmarkExample.testL128X256MixRandom":
+  79.732 ±(99.9%) 0.341 ns/op [Average]
+  (min, avg, max) = (79.278, 79.732, 81.513), stdev = 0.455
+  CI (99.9%): [79.391, 80.073] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8-86
+# VM invoker: /opt/java/java17/jdk-17.0.2/bin/java
+# VM options: --enable-preview -javaagent:/opt/intellij/idea-IC-222.4167.29/lib/idea_rt.jar=43639:/opt/intellij/idea-IC-222.4167.29/bin -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: pl.examples.demo.randomgenerators.BenchmarkExample.testL32X64MixRandom
+
+# Run progress: 23.08% complete, ETA 01:23:58
+# Fork: 1 of 5
+# Warmup Iteration   1: 39.769 ns/op
+# Warmup Iteration   2: 43.562 ns/op
+# Warmup Iteration   3: 44.010 ns/op
+# Warmup Iteration   4: 43.829 ns/op
+# Warmup Iteration   5: 43.797 ns/op
+Iteration   1: 44.140 ns/op
+Iteration   2: 44.180 ns/op
+Iteration   3: 43.995 ns/op
+Iteration   4: 43.954 ns/op
+Iteration   5: 43.799 ns/op
+
+# Run progress: 24.62% complete, ETA 01:22:17
+# Fork: 2 of 5
+# Warmup Iteration   1: 39.719 ns/op
+# Warmup Iteration   2: 50.959 ns/op
+# Warmup Iteration   3: 43.994 ns/op
+# Warmup Iteration   4: 44.123 ns/op
+# Warmup Iteration   5: 44.102 ns/op
+Iteration   1: 43.992 ns/op
+Iteration   2: 48.240 ns/op
+Iteration   3: 71.720 ns/op
+Iteration   4: 76.685 ns/op
+Iteration   5: 94.318 ns/op
+
+# Run progress: 26.15% complete, ETA 01:20:36
+# Fork: 3 of 5
+# Warmup Iteration   1: 66.023 ns/op
+# Warmup Iteration   2: 63.866 ns/op
+# Warmup Iteration   3: 57.275 ns/op
+# Warmup Iteration   4: 55.229 ns/op
+# Warmup Iteration   5: 54.617 ns/op
+Iteration   1: 54.548 ns/op
+Iteration   2: 53.764 ns/op
+Iteration   3: 53.937 ns/op
+Iteration   4: 54.300 ns/op
+Iteration   5: 54.138 ns/op
+
+# Run progress: 27.69% complete, ETA 01:18:56
+# Fork: 4 of 5
+# Warmup Iteration   1: 49.031 ns/op
+# Warmup Iteration   2: 61.457 ns/op
+# Warmup Iteration   3: 53.910 ns/op
+# Warmup Iteration   4: 53.783 ns/op
+# Warmup Iteration   5: 53.572 ns/op
+Iteration   1: 54.578 ns/op
+Iteration   2: 54.611 ns/op
+Iteration   3: 54.050 ns/op
+Iteration   4: 54.260 ns/op
+Iteration   5: 54.143 ns/op
+
+# Run progress: 29.23% complete, ETA 01:17:16
+# Fork: 5 of 5
+# Warmup Iteration   1: 48.735 ns/op
+# Warmup Iteration   2: 54.297 ns/op
+# Warmup Iteration   3: 53.486 ns/op
+# Warmup Iteration   4: 54.553 ns/op
+# Warmup Iteration   5: 54.464 ns/op
+Iteration   1: 55.262 ns/op
+Iteration   2: 54.922 ns/op
+Iteration   3: 56.380 ns/op
+Iteration   4: 55.364 ns/op
+Iteration   5: 55.325 ns/op
+
+
+Result "pl.examples.demo.randomgenerators.BenchmarkExample.testL32X64MixRandom":
+  54.984 ±(99.9%) 8.479 ns/op [Average]
+  (min, avg, max) = (43.799, 54.984, 94.318), stdev = 11.319
+  CI (99.9%): [46.505, 63.463] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8-86
+# VM invoker: /opt/java/java17/jdk-17.0.2/bin/java
+# VM options: --enable-preview -javaagent:/opt/intellij/idea-IC-222.4167.29/lib/idea_rt.jar=43639:/opt/intellij/idea-IC-222.4167.29/bin -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: pl.examples.demo.randomgenerators.BenchmarkExample.testL64X1024MixRandom
+
+# Run progress: 30.77% complete, ETA 01:15:35
+# Fork: 1 of 5
+# Warmup Iteration   1: 128.558 ns/op
+# Warmup Iteration   2: 125.152 ns/op
+# Warmup Iteration   3: 124.722 ns/op
+# Warmup Iteration   4: 121.984 ns/op
+# Warmup Iteration   5: 121.669 ns/op
+Iteration   1: 122.866 ns/op
+Iteration   2: 123.360 ns/op
+Iteration   3: 122.215 ns/op
+Iteration   4: 121.365 ns/op
+Iteration   5: 132.551 ns/op
+
+# Run progress: 32.31% complete, ETA 01:13:55
+# Fork: 2 of 5
+# Warmup Iteration   1: 122.784 ns/op
+# Warmup Iteration   2: 121.917 ns/op
+# Warmup Iteration   3: 119.964 ns/op
+# Warmup Iteration   4: 119.197 ns/op
+# Warmup Iteration   5: 121.186 ns/op
+Iteration   1: 118.729 ns/op
+Iteration   2: 119.791 ns/op
+Iteration   3: 119.634 ns/op
+Iteration   4: 119.378 ns/op
+Iteration   5: 119.779 ns/op
+
+# Run progress: 33.85% complete, ETA 01:12:14
+# Fork: 3 of 5
+# Warmup Iteration   1: 126.061 ns/op
+# Warmup Iteration   2: 124.311 ns/op
+# Warmup Iteration   3: 123.102 ns/op
+# Warmup Iteration   4: 122.546 ns/op
+# Warmup Iteration   5: 124.537 ns/op
+Iteration   1: 148.127 ns/op
+Iteration   2: 122.546 ns/op
+Iteration   3: 122.279 ns/op
+Iteration   4: 121.221 ns/op
+Iteration   5: 120.955 ns/op
+
+# Run progress: 35.38% complete, ETA 01:10:33
+# Fork: 4 of 5
+# Warmup Iteration   1: 125.847 ns/op
+# Warmup Iteration   2: 121.730 ns/op
+# Warmup Iteration   3: 119.859 ns/op
+# Warmup Iteration   4: 117.883 ns/op
+# Warmup Iteration   5: 119.620 ns/op
+Iteration   1: 118.584 ns/op
+Iteration   2: 118.304 ns/op
+Iteration   3: 125.595 ns/op
+Iteration   4: 118.495 ns/op
+Iteration   5: 120.402 ns/op
+
+# Run progress: 36.92% complete, ETA 01:08:53
+# Fork: 5 of 5
+# Warmup Iteration   1: 124.587 ns/op
+# Warmup Iteration   2: 120.939 ns/op
+# Warmup Iteration   3: 120.696 ns/op
+# Warmup Iteration   4: 119.337 ns/op
+# Warmup Iteration   5: 136.051 ns/op
+Iteration   1: 120.461 ns/op
+Iteration   2: 117.261 ns/op
+Iteration   3: 116.630 ns/op
+Iteration   4: 119.000 ns/op
+Iteration   5: 120.966 ns/op
+
+
+Result "pl.examples.demo.randomgenerators.BenchmarkExample.testL64X1024MixRandom":
+  122.020 ±(99.9%) 4.710 ns/op [Average]
+  (min, avg, max) = (116.630, 122.020, 148.127), stdev = 6.288
+  CI (99.9%): [117.310, 126.730] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8-86
+# VM invoker: /opt/java/java17/jdk-17.0.2/bin/java
+# VM options: --enable-preview -javaagent:/opt/intellij/idea-IC-222.4167.29/lib/idea_rt.jar=43639:/opt/intellij/idea-IC-222.4167.29/bin -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: pl.examples.demo.randomgenerators.BenchmarkExample.testL64X128MixRandom
+
+# Run progress: 38.46% complete, ETA 01:07:12
+# Fork: 1 of 5
+# Warmup Iteration   1: 52.770 ns/op
+# Warmup Iteration   2: 57.481 ns/op
+# Warmup Iteration   3: 56.782 ns/op
+# Warmup Iteration   4: 57.879 ns/op
+# Warmup Iteration   5: 57.421 ns/op
+Iteration   1: 57.920 ns/op
+Iteration   2: 57.346 ns/op
+Iteration   3: 56.125 ns/op
+Iteration   4: 56.520 ns/op
+Iteration   5: 55.525 ns/op
+
+# Run progress: 40.00% complete, ETA 01:05:31
+# Fork: 2 of 5
+# Warmup Iteration   1: 51.978 ns/op
+# Warmup Iteration   2: 59.583 ns/op
+# Warmup Iteration   3: 57.032 ns/op
+# Warmup Iteration   4: 55.579 ns/op
+# Warmup Iteration   5: 56.342 ns/op
+Iteration   1: 56.299 ns/op
+Iteration   2: 56.437 ns/op
+Iteration   3: 56.207 ns/op
+Iteration   4: 57.051 ns/op
+Iteration   5: 55.820 ns/op
+
+# Run progress: 41.54% complete, ETA 01:03:51
+# Fork: 3 of 5
+# Warmup Iteration   1: 52.031 ns/op
+# Warmup Iteration   2: 58.551 ns/op
+# Warmup Iteration   3: 62.541 ns/op
+# Warmup Iteration   4: 56.483 ns/op
+# Warmup Iteration   5: 48.353 ns/op
+Iteration   1: 45.320 ns/op
+Iteration   2: 45.246 ns/op
+Iteration   3: 45.292 ns/op
+Iteration   4: 45.176 ns/op
+Iteration   5: 45.251 ns/op
+
+# Run progress: 43.08% complete, ETA 01:02:10
+# Fork: 4 of 5
+# Warmup Iteration   1: 41.945 ns/op
+# Warmup Iteration   2: 45.244 ns/op
+# Warmup Iteration   3: 45.200 ns/op
+# Warmup Iteration   4: 45.065 ns/op
+# Warmup Iteration   5: 45.216 ns/op
+Iteration   1: 45.107 ns/op
+Iteration   2: 45.956 ns/op
+Iteration   3: 45.267 ns/op
+Iteration   4: 45.140 ns/op
+Iteration   5: 45.015 ns/op
+
+# Run progress: 44.62% complete, ETA 01:00:29
+# Fork: 5 of 5
+# Warmup Iteration   1: 42.764 ns/op
+# Warmup Iteration   2: 46.986 ns/op
+# Warmup Iteration   3: 47.998 ns/op
+# Warmup Iteration   4: 48.200 ns/op
+# Warmup Iteration   5: 48.157 ns/op
+Iteration   1: 48.208 ns/op
+Iteration   2: 48.462 ns/op
+Iteration   3: 48.122 ns/op
+Iteration   4: 48.057 ns/op
+Iteration   5: 48.072 ns/op
+
+
+Result "pl.examples.demo.randomgenerators.BenchmarkExample.testL64X128MixRandom":
+  50.358 ±(99.9%) 3.951 ns/op [Average]
+  (min, avg, max) = (45.015, 50.358, 57.920), stdev = 5.274
+  CI (99.9%): [46.407, 54.308] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8-86
+# VM invoker: /opt/java/java17/jdk-17.0.2/bin/java
+# VM options: --enable-preview -javaagent:/opt/intellij/idea-IC-222.4167.29/lib/idea_rt.jar=43639:/opt/intellij/idea-IC-222.4167.29/bin -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: pl.examples.demo.randomgenerators.BenchmarkExample.testL64X128StarStarRandom
+
+# Run progress: 46.15% complete, ETA 00:58:48
+# Fork: 1 of 5
+# Warmup Iteration   1: 43.257 ns/op
+# Warmup Iteration   2: 46.409 ns/op
+# Warmup Iteration   3: 46.280 ns/op
+# Warmup Iteration   4: 46.322 ns/op
+# Warmup Iteration   5: 46.445 ns/op
+Iteration   1: 46.327 ns/op
+Iteration   2: 46.488 ns/op
+Iteration   3: 46.273 ns/op
+Iteration   4: 46.345 ns/op
+Iteration   5: 46.509 ns/op
+
+# Run progress: 47.69% complete, ETA 00:57:07
+# Fork: 2 of 5
+# Warmup Iteration   1: 43.554 ns/op
+# Warmup Iteration   2: 46.568 ns/op
+# Warmup Iteration   3: 47.297 ns/op
+# Warmup Iteration   4: 47.033 ns/op
+# Warmup Iteration   5: 47.427 ns/op
+Iteration   1: 47.295 ns/op
+Iteration   2: 47.360 ns/op
+Iteration   3: 47.118 ns/op
+Iteration   4: 47.089 ns/op
+Iteration   5: 47.084 ns/op
+
+# Run progress: 49.23% complete, ETA 00:55:26
+# Fork: 3 of 5
+# Warmup Iteration   1: 43.719 ns/op
+# Warmup Iteration   2: 46.839 ns/op
+# Warmup Iteration   3: 46.442 ns/op
+# Warmup Iteration   4: 46.622 ns/op
+# Warmup Iteration   5: 46.537 ns/op
+Iteration   1: 46.431 ns/op
+Iteration   2: 46.441 ns/op
+Iteration   3: 46.353 ns/op
+Iteration   4: 46.450 ns/op
+Iteration   5: 46.413 ns/op
+
+# Run progress: 50.77% complete, ETA 00:53:45
+# Fork: 4 of 5
+# Warmup Iteration   1: 43.806 ns/op
+# Warmup Iteration   2: 46.600 ns/op
+# Warmup Iteration   3: 46.548 ns/op
+# Warmup Iteration   4: 46.513 ns/op
+# Warmup Iteration   5: 46.391 ns/op
+Iteration   1: 46.260 ns/op
+Iteration   2: 46.569 ns/op
+Iteration   3: 46.381 ns/op
+Iteration   4: 46.334 ns/op
+Iteration   5: 46.402 ns/op
+
+# Run progress: 52.31% complete, ETA 00:52:04
+# Fork: 5 of 5
+# Warmup Iteration   1: 43.047 ns/op
+# Warmup Iteration   2: 46.367 ns/op
+# Warmup Iteration   3: 46.327 ns/op
+# Warmup Iteration   4: 46.214 ns/op
+# Warmup Iteration   5: 46.169 ns/op
+Iteration   1: 46.478 ns/op
+Iteration   2: 46.540 ns/op
+Iteration   3: 46.607 ns/op
+Iteration   4: 46.482 ns/op
+Iteration   5: 46.280 ns/op
+
+
+Result "pl.examples.demo.randomgenerators.BenchmarkExample.testL64X128StarStarRandom":
+  46.572 ±(99.9%) 0.248 ns/op [Average]
+  (min, avg, max) = (46.260, 46.572, 47.360), stdev = 0.331
+  CI (99.9%): [46.324, 46.820] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8-86
+# VM invoker: /opt/java/java17/jdk-17.0.2/bin/java
+# VM options: --enable-preview -javaagent:/opt/intellij/idea-IC-222.4167.29/lib/idea_rt.jar=43639:/opt/intellij/idea-IC-222.4167.29/bin -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: pl.examples.demo.randomgenerators.BenchmarkExample.testL64X256MixRandom
+
+# Run progress: 53.85% complete, ETA 00:50:23
+# Fork: 1 of 5
+# Warmup Iteration   1: 47.354 ns/op
+# Warmup Iteration   2: 51.544 ns/op
+# Warmup Iteration   3: 52.110 ns/op
+# Warmup Iteration   4: 52.140 ns/op
+# Warmup Iteration   5: 52.158 ns/op
+Iteration   1: 52.084 ns/op
+Iteration   2: 52.301 ns/op
+Iteration   3: 52.334 ns/op
+Iteration   4: 52.070 ns/op
+Iteration   5: 52.141 ns/op
+
+# Run progress: 55.38% complete, ETA 00:48:43
+# Fork: 2 of 5
+# Warmup Iteration   1: 47.549 ns/op
+# Warmup Iteration   2: 50.959 ns/op
+# Warmup Iteration   3: 50.532 ns/op
+# Warmup Iteration   4: 50.650 ns/op
+# Warmup Iteration   5: 50.544 ns/op
+Iteration   1: 50.512 ns/op
+Iteration   2: 50.523 ns/op
+Iteration   3: 50.644 ns/op
+Iteration   4: 50.553 ns/op
+Iteration   5: 50.692 ns/op
+
+# Run progress: 56.92% complete, ETA 00:47:02
+# Fork: 3 of 5
+# Warmup Iteration   1: 49.111 ns/op
+# Warmup Iteration   2: 51.111 ns/op
+# Warmup Iteration   3: 50.627 ns/op
+# Warmup Iteration   4: 50.678 ns/op
+# Warmup Iteration   5: 50.722 ns/op
+Iteration   1: 50.937 ns/op
+Iteration   2: 50.720 ns/op
+Iteration   3: 50.591 ns/op
+Iteration   4: 50.485 ns/op
+Iteration   5: 52.853 ns/op
+
+# Run progress: 58.46% complete, ETA 00:45:21
+# Fork: 4 of 5
+# Warmup Iteration   1: 49.095 ns/op
+# Warmup Iteration   2: 53.896 ns/op
+# Warmup Iteration   3: 53.414 ns/op
+# Warmup Iteration   4: 53.322 ns/op
+# Warmup Iteration   5: 53.233 ns/op
+Iteration   1: 53.234 ns/op
+Iteration   2: 53.094 ns/op
+Iteration   3: 53.194 ns/op
+Iteration   4: 53.144 ns/op
+Iteration   5: 53.387 ns/op
+
+# Run progress: 60.00% complete, ETA 00:43:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 47.387 ns/op
+# Warmup Iteration   2: 51.116 ns/op
+# Warmup Iteration   3: 50.239 ns/op
+# Warmup Iteration   4: 50.319 ns/op
+# Warmup Iteration   5: 50.288 ns/op
+Iteration   1: 50.393 ns/op
+Iteration   2: 50.543 ns/op
+Iteration   3: 51.087 ns/op
+Iteration   4: 50.438 ns/op
+Iteration   5: 50.525 ns/op
+
+
+Result "pl.examples.demo.randomgenerators.BenchmarkExample.testL64X256MixRandom":
+  51.539 ±(99.9%) 0.841 ns/op [Average]
+  (min, avg, max) = (50.393, 51.539, 53.387), stdev = 1.123
+  CI (99.9%): [50.698, 52.381] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8-86
+# VM invoker: /opt/java/java17/jdk-17.0.2/bin/java
+# VM options: --enable-preview -javaagent:/opt/intellij/idea-IC-222.4167.29/lib/idea_rt.jar=43639:/opt/intellij/idea-IC-222.4167.29/bin -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: pl.examples.demo.randomgenerators.BenchmarkExample.testRandom
+
+# Run progress: 61.54% complete, ETA 00:41:59
+# Fork: 1 of 5
+# Warmup Iteration   1: 146.264 ns/op
+# Warmup Iteration   2: 144.562 ns/op
+# Warmup Iteration   3: 143.087 ns/op
+# Warmup Iteration   4: 143.563 ns/op
+# Warmup Iteration   5: 143.384 ns/op
+Iteration   1: 143.989 ns/op
+Iteration   2: 143.495 ns/op
+Iteration   3: 143.304 ns/op
+Iteration   4: 142.874 ns/op
+Iteration   5: 143.466 ns/op
+
+# Run progress: 63.08% complete, ETA 00:40:18
+# Fork: 2 of 5
+# Warmup Iteration   1: 145.483 ns/op
+# Warmup Iteration   2: 146.001 ns/op
+# Warmup Iteration   3: 157.474 ns/op
+# Warmup Iteration   4: 147.828 ns/op
+# Warmup Iteration   5: 189.241 ns/op
+Iteration   1: 158.790 ns/op
+Iteration   2: 157.242 ns/op
+Iteration   3: 154.266 ns/op
+Iteration   4: 158.331 ns/op
+Iteration   5: 153.540 ns/op
+
+# Run progress: 64.62% complete, ETA 00:38:38
+# Fork: 3 of 5
+# Warmup Iteration   1: 154.639 ns/op
+# Warmup Iteration   2: 145.771 ns/op
+# Warmup Iteration   3: 145.803 ns/op
+# Warmup Iteration   4: 146.737 ns/op
+# Warmup Iteration   5: 144.354 ns/op
+Iteration   1: 145.683 ns/op
+Iteration   2: 149.535 ns/op
+Iteration   3: 144.386 ns/op
+Iteration   4: 144.156 ns/op
+Iteration   5: 148.772 ns/op
+
+# Run progress: 66.15% complete, ETA 00:36:57
+# Fork: 4 of 5
+# Warmup Iteration   1: 146.082 ns/op
+# Warmup Iteration   2: 150.226 ns/op
+# Warmup Iteration   3: 149.472 ns/op
+# Warmup Iteration   4: 152.388 ns/op
+# Warmup Iteration   5: 145.061 ns/op
+Iteration   1: 159.152 ns/op
+Iteration   2: 156.103 ns/op
+Iteration   3: 145.271 ns/op
+Iteration   4: 149.965 ns/op
+Iteration   5: 151.550 ns/op
+
+# Run progress: 67.69% complete, ETA 00:35:16
+# Fork: 5 of 5
+# Warmup Iteration   1: 149.858 ns/op
+# Warmup Iteration   2: 145.659 ns/op
+# Warmup Iteration   3: 146.669 ns/op
+# Warmup Iteration   4: 151.003 ns/op
+# Warmup Iteration   5: 145.015 ns/op
+Iteration   1: 144.588 ns/op
+Iteration   2: 145.761 ns/op
+Iteration   3: 144.372 ns/op
+Iteration   4: 144.212 ns/op
+Iteration   5: 156.359 ns/op
+
+
+Result "pl.examples.demo.randomgenerators.BenchmarkExample.testRandom":
+  149.166 ±(99.9%) 4.362 ns/op [Average]
+  (min, avg, max) = (142.874, 149.166, 159.152), stdev = 5.823
+  CI (99.9%): [144.804, 153.529] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8-86
+# VM invoker: /opt/java/java17/jdk-17.0.2/bin/java
+# VM options: --enable-preview -javaagent:/opt/intellij/idea-IC-222.4167.29/lib/idea_rt.jar=43639:/opt/intellij/idea-IC-222.4167.29/bin -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: pl.examples.demo.randomgenerators.BenchmarkExample.testSecureRandom
+
+# Run progress: 69.23% complete, ETA 00:33:35
+# Fork: 1 of 5
+# Warmup Iteration   1: 6125.106 ns/op
+# Warmup Iteration   2: 4815.073 ns/op
+# Warmup Iteration   3: 4741.165 ns/op
+# Warmup Iteration   4: 4925.134 ns/op
+# Warmup Iteration   5: 4748.399 ns/op
+Iteration   1: 5068.896 ns/op
+Iteration   2: 5044.334 ns/op
+Iteration   3: 4852.306 ns/op
+Iteration   4: 4744.898 ns/op
+Iteration   5: 5236.239 ns/op
+
+# Run progress: 70.77% complete, ETA 00:31:54
+# Fork: 2 of 5
+# Warmup Iteration   1: 5386.252 ns/op
+# Warmup Iteration   2: 5564.099 ns/op
+# Warmup Iteration   3: 5545.360 ns/op
+# Warmup Iteration   4: 5268.006 ns/op
+# Warmup Iteration   5: 5083.532 ns/op
+Iteration   1: 5454.073 ns/op
+Iteration   2: 4972.158 ns/op
+Iteration   3: 4921.248 ns/op
+Iteration   4: 4985.918 ns/op
+Iteration   5: 5217.710 ns/op
+
+# Run progress: 72.31% complete, ETA 00:30:14
+# Fork: 3 of 5
+# Warmup Iteration   1: 5847.289 ns/op
+# Warmup Iteration   2: 11011.703 ns/op
+# Warmup Iteration   3: 5890.559 ns/op
+# Warmup Iteration   4: 5694.911 ns/op
+# Warmup Iteration   5: 6215.587 ns/op
+Iteration   1: 5527.045 ns/op
+Iteration   2: 5959.001 ns/op
+Iteration   3: 5654.833 ns/op
+Iteration   4: 5731.034 ns/op
+Iteration   5: 6203.807 ns/op
+
+# Run progress: 73.85% complete, ETA 00:28:33
+# Fork: 4 of 5
+# Warmup Iteration   1: 5792.854 ns/op
+# Warmup Iteration   2: 5197.252 ns/op
+# Warmup Iteration   3: 5023.135 ns/op
+# Warmup Iteration   4: 5172.661 ns/op
+# Warmup Iteration   5: 5280.685 ns/op
+Iteration   1: 5383.751 ns/op
+Iteration   2: 5603.385 ns/op
+Iteration   3: 5481.271 ns/op
+Iteration   4: 5116.643 ns/op
+Iteration   5: 5235.648 ns/op
+
+# Run progress: 75.38% complete, ETA 00:26:52
+# Fork: 5 of 5
+# Warmup Iteration   1: 5348.662 ns/op
+# Warmup Iteration   2: 5157.097 ns/op
+# Warmup Iteration   3: 5269.903 ns/op
+# Warmup Iteration   4: 5071.575 ns/op
+# Warmup Iteration   5: 5303.723 ns/op
+Iteration   1: 5155.064 ns/op
+Iteration   2: 5102.787 ns/op
+Iteration   3: 5848.137 ns/op
+Iteration   4: 5115.565 ns/op
+Iteration   5: 5306.587 ns/op
+
+
+Result "pl.examples.demo.randomgenerators.BenchmarkExample.testSecureRandom":
+  5316.893 ±(99.9%) 272.791 ns/op [Average]
+  (min, avg, max) = (4744.898, 5316.893, 6203.807), stdev = 364.168
+  CI (99.9%): [5044.102, 5589.685] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8-86
+# VM invoker: /opt/java/java17/jdk-17.0.2/bin/java
+# VM options: --enable-preview -javaagent:/opt/intellij/idea-IC-222.4167.29/lib/idea_rt.jar=43639:/opt/intellij/idea-IC-222.4167.29/bin -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: pl.examples.demo.randomgenerators.BenchmarkExample.testSplittableRandom
+
+# Run progress: 76.92% complete, ETA 00:25:11
+# Fork: 1 of 5
+# Warmup Iteration   1: 37.660 ns/op
+# Warmup Iteration   2: 41.576 ns/op
+# Warmup Iteration   3: 39.103 ns/op
+# Warmup Iteration   4: 38.387 ns/op
+# Warmup Iteration   5: 39.833 ns/op
+Iteration   1: 37.267 ns/op
+Iteration   2: 40.653 ns/op
+Iteration   3: 39.292 ns/op
+Iteration   4: 39.475 ns/op
+Iteration   5: 39.332 ns/op
+
+# Run progress: 78.46% complete, ETA 00:23:30
+# Fork: 2 of 5
+# Warmup Iteration   1: 37.245 ns/op
+# Warmup Iteration   2: 41.501 ns/op
+# Warmup Iteration   3: 38.559 ns/op
+# Warmup Iteration   4: 40.093 ns/op
+# Warmup Iteration   5: 38.512 ns/op
+Iteration   1: 41.112 ns/op
+Iteration   2: 41.898 ns/op
+Iteration   3: 40.066 ns/op
+Iteration   4: 42.480 ns/op
+Iteration   5: 38.923 ns/op
+
+# Run progress: 80.00% complete, ETA 00:21:50
+# Fork: 3 of 5
+# Warmup Iteration   1: 35.346 ns/op
+# Warmup Iteration   2: 38.348 ns/op
+# Warmup Iteration   3: 36.633 ns/op
+# Warmup Iteration   4: 36.658 ns/op
+# Warmup Iteration   5: 41.089 ns/op
+Iteration   1: 40.659 ns/op
+Iteration   2: 41.937 ns/op
+Iteration   3: 41.801 ns/op
+Iteration   4: 40.865 ns/op
+Iteration   5: 41.370 ns/op
+
+# Run progress: 81.54% complete, ETA 00:20:09
+# Fork: 4 of 5
+# Warmup Iteration   1: 35.456 ns/op
+# Warmup Iteration   2: 38.432 ns/op
+# Warmup Iteration   3: 38.030 ns/op
+# Warmup Iteration   4: 38.918 ns/op
+# Warmup Iteration   5: 40.441 ns/op
+Iteration   1: 38.699 ns/op
+Iteration   2: 36.304 ns/op
+Iteration   3: 36.417 ns/op
+Iteration   4: 36.190 ns/op
+Iteration   5: 38.535 ns/op
+
+# Run progress: 83.08% complete, ETA 00:18:28
+# Fork: 5 of 5
+# Warmup Iteration   1: 36.539 ns/op
+# Warmup Iteration   2: 38.632 ns/op
+# Warmup Iteration   3: 39.270 ns/op
+# Warmup Iteration   4: 39.120 ns/op
+# Warmup Iteration   5: 41.079 ns/op
+Iteration   1: 39.200 ns/op
+Iteration   2: 40.962 ns/op
+Iteration   3: 41.285 ns/op
+Iteration   4: 37.980 ns/op
+Iteration   5: 41.228 ns/op
+
+
+Result "pl.examples.demo.randomgenerators.BenchmarkExample.testSplittableRandom":
+  39.757 ±(99.9%) 1.397 ns/op [Average]
+  (min, avg, max) = (36.190, 39.757, 42.480), stdev = 1.865
+  CI (99.9%): [38.360, 41.154] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8-86
+# VM invoker: /opt/java/java17/jdk-17.0.2/bin/java
+# VM options: --enable-preview -javaagent:/opt/intellij/idea-IC-222.4167.29/lib/idea_rt.jar=43639:/opt/intellij/idea-IC-222.4167.29/bin -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: pl.examples.demo.randomgenerators.BenchmarkExample.testXoroshiro128PlusPlus
+
+# Run progress: 84.62% complete, ETA 00:16:47
+# Fork: 1 of 5
+# Warmup Iteration   1: 41.188 ns/op
+# Warmup Iteration   2: 45.199 ns/op
+# Warmup Iteration   3: 42.254 ns/op
+# Warmup Iteration   4: 43.912 ns/op
+# Warmup Iteration   5: 41.670 ns/op
+Iteration   1: 44.646 ns/op
+Iteration   2: 41.657 ns/op
+Iteration   3: 40.273 ns/op
+Iteration   4: 41.470 ns/op
+Iteration   5: 39.703 ns/op
+
+# Run progress: 86.15% complete, ETA 00:15:06
+# Fork: 2 of 5
+# Warmup Iteration   1: 37.053 ns/op
+# Warmup Iteration   2: 40.104 ns/op
+# Warmup Iteration   3: 39.574 ns/op
+# Warmup Iteration   4: 39.612 ns/op
+# Warmup Iteration   5: 40.874 ns/op
+Iteration   1: 39.438 ns/op
+Iteration   2: 39.452 ns/op
+Iteration   3: 41.108 ns/op
+Iteration   4: 39.557 ns/op
+Iteration   5: 40.162 ns/op
+
+# Run progress: 87.69% complete, ETA 00:13:26
+# Fork: 3 of 5
+# Warmup Iteration   1: 35.680 ns/op
+# Warmup Iteration   2: 40.430 ns/op
+# Warmup Iteration   3: 39.430 ns/op
+# Warmup Iteration   4: 40.204 ns/op
+# Warmup Iteration   5: 42.277 ns/op
+Iteration   1: 39.988 ns/op
+Iteration   2: 42.353 ns/op
+Iteration   3: 42.362 ns/op
+Iteration   4: 43.008 ns/op
+Iteration   5: 42.641 ns/op
+
+# Run progress: 89.23% complete, ETA 00:11:45
+# Fork: 4 of 5
+# Warmup Iteration   1: 38.029 ns/op
+# Warmup Iteration   2: 40.123 ns/op
+# Warmup Iteration   3: 41.746 ns/op
+# Warmup Iteration   4: 41.774 ns/op
+# Warmup Iteration   5: 47.509 ns/op
+Iteration   1: 44.950 ns/op
+Iteration   2: 46.918 ns/op
+Iteration   3: 42.228 ns/op
+Iteration   4: 41.784 ns/op
+Iteration   5: 41.663 ns/op
+
+# Run progress: 90.77% complete, ETA 00:10:04
+# Fork: 5 of 5
+# Warmup Iteration   1: 36.974 ns/op
+# Warmup Iteration   2: 40.587 ns/op
+# Warmup Iteration   3: 40.459 ns/op
+# Warmup Iteration   4: 40.460 ns/op
+# Warmup Iteration   5: 42.005 ns/op
+Iteration   1: 58.469 ns/op
+Iteration   2: 60.332 ns/op
+Iteration   3: 44.923 ns/op
+Iteration   4: 44.048 ns/op
+Iteration   5: 44.173 ns/op
+
+
+Result "pl.examples.demo.randomgenerators.BenchmarkExample.testXoroshiro128PlusPlus":
+  43.492 ±(99.9%) 3.889 ns/op [Average]
+  (min, avg, max) = (39.438, 43.492, 60.332), stdev = 5.191
+  CI (99.9%): [39.604, 47.381] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8-86
+# VM invoker: /opt/java/java17/jdk-17.0.2/bin/java
+# VM options: --enable-preview -javaagent:/opt/intellij/idea-IC-222.4167.29/lib/idea_rt.jar=43639:/opt/intellij/idea-IC-222.4167.29/bin -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: pl.examples.demo.randomgenerators.BenchmarkExample.testXoshiro256PlusPlus
+
+# Run progress: 92.31% complete, ETA 00:08:23
+# Fork: 1 of 5
+# Warmup Iteration   1: 49.018 ns/op
+# Warmup Iteration   2: 50.210 ns/op
+# Warmup Iteration   3: 47.772 ns/op
+# Warmup Iteration   4: 47.139 ns/op
+# Warmup Iteration   5: 45.649 ns/op
+Iteration   1: 45.607 ns/op
+Iteration   2: 45.681 ns/op
+Iteration   3: 45.656 ns/op
+Iteration   4: 45.674 ns/op
+Iteration   5: 45.640 ns/op
+
+# Run progress: 93.85% complete, ETA 00:06:43
+# Fork: 2 of 5
+# Warmup Iteration   1: 42.925 ns/op
+# Warmup Iteration   2: 45.357 ns/op
+# Warmup Iteration   3: 47.489 ns/op
+# Warmup Iteration   4: 47.291 ns/op
+# Warmup Iteration   5: 45.556 ns/op
+Iteration   1: 45.449 ns/op
+Iteration   2: 45.417 ns/op
+Iteration   3: 45.243 ns/op
+Iteration   4: 45.271 ns/op
+Iteration   5: 45.269 ns/op
+
+# Run progress: 95.38% complete, ETA 00:05:02
+# Fork: 3 of 5
+# Warmup Iteration   1: 42.764 ns/op
+# Warmup Iteration   2: 45.487 ns/op
+# Warmup Iteration   3: 45.327 ns/op
+# Warmup Iteration   4: 45.323 ns/op
+# Warmup Iteration   5: 49.710 ns/op
+Iteration   1: 46.520 ns/op
+Iteration   2: 45.552 ns/op
+Iteration   3: 48.857 ns/op
+Iteration   4: 54.464 ns/op
+Iteration   5: 45.904 ns/op
+
+# Run progress: 96.92% complete, ETA 00:03:21
+# Fork: 4 of 5
+# Warmup Iteration   1: 46.663 ns/op
+# Warmup Iteration   2: 46.354 ns/op
+# Warmup Iteration   3: 48.582 ns/op
+# Warmup Iteration   4: 47.349 ns/op
+# Warmup Iteration   5: 45.677 ns/op
+Iteration   1: 47.028 ns/op
+Iteration   2: 46.133 ns/op
+Iteration   3: 49.336 ns/op
+Iteration   4: 46.141 ns/op
+Iteration   5: 46.804 ns/op
+
+# Run progress: 98.46% complete, ETA 00:01:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 45.643 ns/op
+# Warmup Iteration   2: 47.910 ns/op
+# Warmup Iteration   3: 49.790 ns/op
+# Warmup Iteration   4: 49.649 ns/op
+# Warmup Iteration   5: 46.024 ns/op
+Iteration   1: 50.915 ns/op
+Iteration   2: 47.218 ns/op
+Iteration   3: 47.906 ns/op
+Iteration   4: 49.977 ns/op
+Iteration   5: 48.035 ns/op
+
+
+Result "pl.examples.demo.randomgenerators.BenchmarkExample.testXoshiro256PlusPlus":
+  47.028 ±(99.9%) 1.667 ns/op [Average]
+  (min, avg, max) = (45.243, 47.028, 54.464), stdev = 2.225
+  CI (99.9%): [45.361, 48.695] (assumes normal distribution)
+
+
+# Run complete. Total time: 01:49:10
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                   Mode  Cnt     Score     Error  Units
+BenchmarkExample.testL128X1024MixRandom     avgt   25   123.440 ±   4.869  ns/op
+BenchmarkExample.testL128X128MixRandom      avgt   25    73.711 ±   1.568  ns/op
+BenchmarkExample.testL128X256MixRandom      avgt   25    79.732 ±   0.341  ns/op
+BenchmarkExample.testL32X64MixRandom        avgt   25    54.984 ±   8.479  ns/op
+BenchmarkExample.testL64X1024MixRandom      avgt   25   122.020 ±   4.710  ns/op
+BenchmarkExample.testL64X128MixRandom       avgt   25    50.358 ±   3.951  ns/op
+BenchmarkExample.testL64X128StarStarRandom  avgt   25    46.572 ±   0.248  ns/op
+BenchmarkExample.testL64X256MixRandom       avgt   25    51.539 ±   0.841  ns/op
+BenchmarkExample.testRandom                 avgt   25   149.166 ±   4.362  ns/op
+BenchmarkExample.testSecureRandom           avgt   25  5316.893 ± 272.791  ns/op
+BenchmarkExample.testSplittableRandom       avgt   25    39.757 ±   1.397  ns/op
+BenchmarkExample.testXoroshiro128PlusPlus   avgt   25    43.492 ±   3.889  ns/op
+BenchmarkExample.testXoshiro256PlusPlus     avgt   25    47.028 ±   1.667  ns/op
